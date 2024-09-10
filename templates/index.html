@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Employee Check-in</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+        .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">✅</div>
+        <h1>Welcome!</h1>
+        <p>You have successfully checked in.</p>
+        <p>{{ timestamp }}</p>
+    </div>
+</body>
+</html>

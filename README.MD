@@ -5,3 +5,5 @@
             pip install flask requests
         ```
     - then run the python code in this project and run c++ for QrCode
+================================================================
+![alt text](https://english-api.cstad.shop/files/afb60be6-1489-41bf-a928-2f4fe2efbe35.png)
